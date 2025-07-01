@@ -8,11 +8,11 @@
 <script>
 import { RouterView } from "vue-router";
 import { useRouter, useRoute } from 'vue-router'
-import LayoutDefault from "./layouts/LayoutDefault.vue";
+import LayoutEmpty from "./layouts/LayoutEmpty.vue";  
 
 export default {
   components: {
-    LayoutDefault
+    LayoutEmpty
   },
   setup() {
     const route = useRoute()
